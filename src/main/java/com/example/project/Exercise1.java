@@ -14,7 +14,7 @@ public class Exercise1 {
 		}
 	}
          public boolean esCuadradoPerfecto(int n) {
-		if (cuadrado((int) Math.sqrt(n)) == n) {//le sacamos raiz al numero y luego lo metemos al  metodo cuadrado que hara elevarlos a la 2 y si es igual mismo numero inicial votara true
+		if(n>0 && cuadrado((int)Math.sqrt(n))==n) {//le sacamos raiz al numero y luego lo metemos al  metodo cuadrado que hara elevarlos a la 2 y si es igual mismo numero inicial votara true
 
 			return true;
 		} else {
